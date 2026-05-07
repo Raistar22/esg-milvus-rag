@@ -4,7 +4,7 @@ from backend.metadata import detect_brsr_parameter, detect_sector, detect_financ
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-MILVUS_URI      = "./milvus_esg.db"
+MILVUS_URI      = "/tmp/milvus_esg.db"
 COLLECTION_NAME = "esg_reports"
 _client         = None
 
